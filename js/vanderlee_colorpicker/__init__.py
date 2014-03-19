@@ -13,17 +13,12 @@ colorpicker = fanstatic.Resource(
     depends=[jquery, jqueryui, colorpicker_css])
 
 cmyk_parser = fanstatic.Resource(
-    library, 'jquery.ui.colorpicker-cmyk-parser.js',
-    minified='jquery.ui.colorpicker-cmyk-parser.js')
+    library, 'jquery.ui.colorpicker-cmyk-parser.js')
 cmyk_percentage_parser = fanstatic.Resource(
-    library, 'jquery.ui.colorpicker-cmyk-percentage-parser.js',
-    minified='jquery.ui.colorpicker-cmyk-percentage-parser.js')
+    library, 'jquery.ui.colorpicker-cmyk-percentage-parser.js')
 swatches_crayola = fanstatic.Resource(
-    library, 'jquery.ui.colorpicker-crayola.js',
-    minified='jquery.ui.colorpicker-crayola.js')
+    library, 'jquery.ui.colorpicker-crayola.js')
 swatches_pantone = fanstatic.Resource(
-    library, 'jquery.ui.colorpicker-pantone.js',
-    minified='jquery.ui.colorpicker-pantone.js')
+    library, 'jquery.ui.colorpicker-pantone.js')
 swatches_ral = fanstatic.Resource(
-    library, 'jquery.ui.colorpicker-ral-classic.js',
-    minified='jquery.ui.colorpicker-ral-classic.js')
+    library, 'jquery.ui.colorpicker-ral-classic.js')
